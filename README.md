@@ -1,4 +1,4 @@
-# Shield Insurance – Power BI Dashboard
+# 🛡️ Shield Insurance – Power BI Dashboard
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Analysis-blue?style=for-the-badge)
@@ -8,7 +8,9 @@
 
 This project is a **Power BI dashboard developed for Shield Insurance** as part of the **Codebasics Data Analytics Virtual Internship**.
 
-The objective of this project is to transform insurance business data into meaningful insights that can help management understand:
+The objective of this project is to transform insurance business data into meaningful insights that can support better business decisions.
+
+The dashboard focuses on:
 
 - Revenue performance
 - Customer growth
@@ -16,24 +18,21 @@ The objective of this project is to transform insurance business data into meani
 - Customer demographics
 - Policy trends
 - Settlement patterns
-- Business growth opportunities
-
-The dashboard provides an interactive and executive-friendly view of the company's performance.
 
 ---
 
 ## 🎯 Business Problem
 
-Shield Insurance needed a centralized analytical solution to understand its business performance across different:
+Shield Insurance needed better visibility into its business performance across different:
 
 - Sales channels
 - Customer segments
-- Age groups
-- Cities
-- Policies
-- Revenue and customer trends
+- Locations
+- Policy types
+- Revenue trends
+- Customer behaviour
 
-The goal was to create a dashboard that converts raw business data into **actionable insights for decision-making**.
+The goal was to build an interactive dashboard that allows stakeholders to quickly understand **what is happening in the business and where improvement opportunities exist**.
 
 ---
 
@@ -41,35 +40,27 @@ The goal was to create a dashboard that converts raw business data into **action
 
 ## 1. Executive Overview
 
-The Executive Overview provides a high-level summary of the company's overall performance.
+The Executive Overview provides a high-level view of the company's overall performance.
 
 ### Key Metrics
 
-- 💰 Total Revenue
-- 👥 Total Customers
-- 📈 Daily Revenue Growth (DRG)
-- 📊 Daily Customer Growth (DCG)
-- 📅 Month-over-Month performance
-- 🌍 Geographic performance
-- 👤 Customer segmentation
-
-### Key Features
-
-- Interactive KPI cards
+- **Total Revenue:** ₹989.3M
+- **Total Customers:** 26.8K
+- Revenue growth tracking
+- Customer growth tracking
+- Month-over-Month comparison
 - Revenue and customer trend analysis
-- Monthly performance comparison
-- Geographic analysis
-- Customer segmentation
+- Geographic and demographic segmentation
 
 ### Screenshot
 
-![Executive Overview](screenshots/executive-overview.png)
+![Executive Overview](./Screenshot%202026-09-05%20164225.png)
 
 ---
 
 ## 2. Sales Mode Analysis
 
-This page analyzes performance across different sales channels.
+This page analyzes customer and revenue contribution across different sales channels.
 
 ### Sales Channels
 
@@ -78,201 +69,176 @@ This page analyzes performance across different sales channels.
 - Direct
 - Website
 
-### Analysis Includes
-
-- Customer distribution by sales channel
-- Revenue contribution by channel
-- Monthly channel trends
-- Channel performance comparison
-
 ### Key Insights
 
-- Agent channel remains the major contributor to customers and revenue.
-- The App channel shows strong growth potential.
-- Digital channels provide opportunities for future expansion.
-- Channel-level performance can help optimize sales and marketing strategies.
+- **Agent channel** contributes the largest share of customers and revenue.
+- **App channel** shows strong growth and represents an important digital opportunity.
+- Direct and Website channels provide additional opportunities for improving digital adoption.
+- Channel-wise performance helps identify where resources and investments should be focused.
 
 ### Screenshot
 
-![Sales Mode Analysis](screenshots/sales-mode-analysis.png)
+![Sales Mode Analysis](./Screenshot%202026-09-13%20200327.png)
 
 ---
 
-## 3. Age Group Analysis
+## 3. Customer & Revenue Analysis
 
-This page analyzes customers based on different age groups.
+This section focuses on understanding customer behaviour and revenue contribution.
 
-### Analysis Includes
+The analysis helps identify:
 
-- Customer distribution by age
-- Revenue contribution by age group
-- Policy preferences
-- Settlement analysis
-- Customer risk patterns
-
-### Key Insight
-
-The **31–40 age group** represents an important customer segment with a strong combination of customer volume, revenue contribution and policy activity.
+- High-value customer segments
+- Revenue contribution
+- Customer distribution
+- Sales channel performance
+- Growth patterns
 
 ### Screenshot
 
-![Age Group Analysis](screenshots/age-group-analysis.png)
+![Customer and Revenue Analysis](./Screenshot%202026-09-13%20200353.png)
+
+---
+
+## 4. Age Group Analysis
+
+The Age Group Analysis helps understand customer demographics and policy behaviour.
+
+### Key Insight
+
+The **31–40 age group** represents an important customer segment based on its combination of customer volume, revenue contribution and policy behaviour.
+
+This analysis can help Shield Insurance design more targeted products and customer engagement strategies.
+
+### Screenshot
+
+![Age Group Analysis](./Screenshot%202026-09-13%20200414.png)
 
 ---
 
 # 💡 Key Business Insights
 
-### 1. Revenue Performance
+### 🎯 1. Revenue Peak
 
-The dashboard helps identify high-performing months and periods where revenue increased significantly.
+March 2023 recorded the highest revenue of approximately **₹264M**, indicating a strong period of business performance.
 
-### 2. Digital Channel Opportunity
+This provides an opportunity to investigate the factors behind the peak and replicate successful campaigns or strategies.
 
-The growth of the App channel indicates an opportunity to further invest in digital customer acquisition and engagement.
+### 📱 2. Digital Transformation Opportunity
 
-### 3. Core Customer Segment
+The **App channel shows consistent growth**, indicating increasing customer adoption of digital channels.
 
-The 31–40 age group represents a valuable customer segment and can be targeted with suitable insurance products and campaigns.
+Shield Insurance can focus on improving its digital customer experience and increasing digital contribution.
 
-### 4. Channel Optimization
+### 👥 3. Core Customer Segment
 
-Comparing revenue and customer contribution across sales channels helps identify where additional investment and optimization may be required.
+The **31–40 age group** is a key customer segment with strong business contribution.
 
-### 5. Data-Driven Decision Making
+This segment can be targeted through:
 
-The dashboard enables management to move from static reporting toward interactive and data-driven decision making.
+- Premium insurance products
+- Personalized offers
+- Agent training
+- Digital engagement campaigns
+
+### 🏢 4. Agent Channel Dominance
+
+The Agent channel remains the strongest sales channel and represents an important foundation for the business.
+
+At the same time, digital channels can be developed to reduce operational dependency and improve scalability.
 
 ---
 
 # 📈 Strategic Recommendations
 
-Based on the analysis, the following recommendations can be considered:
+## 1. Accelerate Digital Channels
 
-### 🚀 1. Accelerate Digital Channels
+Increase investment in the App and other digital channels to improve customer acquisition and reduce operational costs.
 
-Increase investment in digital channels, particularly the App, to improve customer acquisition and reduce operational dependency on traditional channels.
+## 2. Focus on the Core Customer Segment
 
-### 🎯 2. Focus on High-Value Customer Segments
+Develop targeted products and campaigns for the **31–40 age group**, particularly in high-performing markets.
 
-Develop targeted insurance products and campaigns for the strongest-performing age groups.
+## 3. Replicate Successful Campaigns
 
-### 📊 3. Optimize Sales Channels
+Analyze the factors behind the March 2023 revenue peak and develop a repeatable campaign strategy.
 
-Monitor channel-level revenue and customer performance regularly and allocate resources toward channels with stronger growth potential.
+## 4. Optimize Sales Channels
 
-### 📅 4. Replicate Successful Campaigns
-
-Identify periods of exceptional revenue performance and analyze the underlying factors to develop repeatable campaign strategies.
+Continue strengthening the Agent channel while increasing adoption of App, Website and Direct channels.
 
 ---
 
-# 🛠️ Tools & Technologies
+# 🧮 Technical Implementation
 
-| Tool | Purpose |
-|---|---|
-| **Power BI** | Dashboard development and visualization |
-| **DAX** | Calculations and business metrics |
-| **Power Query** | Data cleaning and transformation |
-| **Data Modeling** | Relationships and analytical model |
-| **Excel / CSV** | Data source and preparation |
+### Tools Used
+
+- **Power BI**
+- **DAX**
+- **Power Query**
+- **Data Modeling**
+- **Data Visualization**
+
+### Power BI Concepts Used
+
+- Data cleaning
+- Data transformation
+- Star schema/data modeling
+- Relationships
+- DAX measures
+- Calculated columns
+- KPI cards
+- Line charts
+- Donut charts
+- Bar charts
+- Slicers
+- Interactive filters
+- Drill-down analysis
+- Time intelligence
 
 ---
 
-# 🧮 Key DAX Concepts Used
+# 📐 Key DAX Metrics
 
-Some of the important analytical concepts implemented in the project include:
+Some of the important analytical measures implemented in the dashboard include:
 
 - Total Revenue
 - Total Customers
 - Daily Revenue
 - Daily Customer Growth
-- Month-over-Month Growth
-- Previous Month calculations
-- Customer percentage by sales channel
-- Revenue contribution
-- Age group segmentation
-- Settlement analysis
-- KPI comparison
-- Conditional indicators
+- Revenue Growth %
+- Customer Growth %
+- Previous Month Revenue
+- Previous Month Customers
+- Market Share %
+- Customer Distribution %
+- Revenue Contribution %
 
 ---
 
-# 🗂️ Data Model
+# 📊 Dashboard Features
 
-The dashboard uses a structured data model consisting of dimension and fact tables.
-
-### Dimension Tables
-
-- `dim_customer`
-- `dim_date`
-- `dim_policies`
-
-### Fact Tables
-
-- `fact_premiums`
-- `fact_settlements`
-
-The model follows a structured analytical approach to support efficient reporting and DAX calculations.
+✅ Interactive Power BI dashboard  
+✅ Revenue and customer KPI tracking  
+✅ Month-over-Month analysis  
+✅ Sales channel analysis  
+✅ Customer demographic analysis  
+✅ Age group segmentation  
+✅ Revenue contribution analysis  
+✅ Interactive slicers and filters  
+✅ Business-focused insights  
+✅ Executive-friendly visualization  
 
 ---
 
-# 📸 Dashboard Screenshots
+# 🗂️ Project Structure
 
-## Executive Overview
-
-![Executive Overview](screenshots/executive-overview.png)
-
-## Sales Mode Analysis
-
-![Sales Mode Analysis](screenshots/sales-mode-analysis.png)
-
-## Age Group Analysis
-
-![Age Group Analysis](screenshots/age-group-analysis.png)
-
----
-
-# 🎓 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- Building interactive Power BI dashboards
-- Data cleaning and transformation
-- Data modeling
-- Writing DAX measures
-- Creating business KPIs
-- Time-intelligence calculations
-- Customer segmentation
-- Business-oriented data analysis
-- Designing dashboards for decision-making
-- Converting analytical findings into business recommendations
-
----
-
-# 🏆 Internship
-
-This project was completed as part of the:
-
-**Codebasics Data Analytics Virtual Internship**
-
-The project provided an opportunity to work on a real-world style business problem and apply data analytics concepts to insurance industry data.
-
----
-
-# 👨‍💻 Author
-
-**Satish Gouni**
-
-Data Analytics | Power BI | SQL | Python
-
----
-
-## ⭐ Project Highlights
-
-> Transforming raw insurance data into meaningful business insights using Power BI, DAX and interactive data visualization.
-
----
-
-### 📌 Note
-
-This repository is created for **educational and portfolio purposes** as part of the Codebasics Data Analytics Virtual Internship.
+```text
+shield-insurance-powerbi-dashboard/
+│
+├── README.md
+│
+├── Screenshot 2026-09-05 164225.png
+├── Screenshot 2026-09-13 200327.png
+├── Screenshot 2026-09-13 200353.png
+└── Screenshot 2026-09-13 200414.png
