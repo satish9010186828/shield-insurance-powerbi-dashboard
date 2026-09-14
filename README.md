@@ -332,9 +332,9 @@ This structure enables efficient analysis across customers, policies, revenue, d
 
 ## 📊 Power BI Dashboard File
 
-The complete Power BI dashboard file (`.pbix`) is included in this repository.
+The complete Power BI dashboard  is included in this repository.
 
-👉 **[Download Insurance Dashboard.pbix](./Insurance%20Dashboard.pbix)**
+👉 **[View Dashboard](https://lnkd.in/gHb4piR6)**
 
 > ⚠️ **Note:** You need **Microsoft Power BI Desktop** to open the `.pbix` file.
 
@@ -361,7 +361,6 @@ I shared the Shield Insurance Power BI Capstone Project on LinkedIn, including t
 | Resource | Link |
 |---|---|
 | 📊 Power BI Dashboard | [View Dashboard](https://lnkd.in/gHb4piR6) |
-| 📁 PBIX Dashboard File | [Download PBIX](./Insurance%20Dashboard.pbix) |
 | 🎥 Project Presentation | [Watch Video](https://drive.google.com/file/d/1Dj0v9QO8AckB1BQBkeSyTvztv-y6_G5Y/view?usp=drive_link) |
 | 🔗 LinkedIn Project Post | [View LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7505209362618101760/) |
 
